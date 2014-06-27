@@ -30,6 +30,7 @@ a.call-to-action {
   -moz-transform: translateY(-4px) translateX(-4px);
   transform: translateY(-4px) translateX(-4px);
   transition: all .1s;
+  margin-top: 1.5em;
 }
 a.call-to-action:hover {
   background: #a8e0ef;
@@ -104,12 +105,16 @@ article ul {
   background-position: center left;
   padding-left: 50px;
   list-style: none;
+  margin-bottom: 0;
 }
 article ul li {
   position: relative;
 }
 article ul li p {
-  margin-top: .5em;
+  margin: .5em 0 0;
+}
+article ul li:not(:last-child) {
+  margin-bottom: 1em;
 }
 .wrap {
   width: 400px;
