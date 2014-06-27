@@ -23,6 +23,15 @@ module.exports = function(grunt) {
 					livereload: true,
 					spawn: false
 		        }
+			},
+
+			reload: {
+				files: ['index.html', 'img/**/*'],
+				tasks: [],
+		        options: {
+					livereload: true,
+					spawn: false
+		        }
 			}
 	    }
 	});
